@@ -1,0 +1,22 @@
+line_settings.toml
+/log/*
+!/log/.gitkeep
+
+# pyenv
+.python-version
+
+# Python files
+__pycache__/
+*.py[cod]
+
+# Folder view configuration files
+.DS_Store
+Desktop.ini
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Files that might appear on external disks
+.Spotlight-V100
+.Trashes

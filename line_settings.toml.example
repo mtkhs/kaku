@@ -1,0 +1,11 @@
+[line]
+channel_secret = 'xxxxx'
+access_token = 'xxxxx'
+
+[bot]
+plugins_dir = "line_plugins"
+
+[[plugins]]
+module = 'parrot'
+name = 'Parrot'
+
