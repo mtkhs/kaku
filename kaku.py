@@ -14,6 +14,6 @@ def callback():
     return "Success"
 
 if __name__ == "__main__":
-    port = 5000 # TODO: LINE_SETTINGS
+    port = LINE_SETTINGS[ 'line' ][ 'callback_port' ]
     app.run( debug = True, host = '0.0.0.0', port = port )
 

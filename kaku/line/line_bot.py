@@ -9,7 +9,7 @@ class LineBot():
         print( "-- __init__()" )
         channel_secret = setting[ 'line' ][ 'channel_secret' ]
         access_token = setting[ 'line' ][ 'access_token' ]
-        plugins_dir = setting[ 'bot' ][ 'plugins_dir' ]
+        plugins_dir = setting[ 'line' ][ 'plugins_dir' ]
         plugins_setting = setting[ 'plugins' ]
 
         self.CHANNEL_SECRET = channel_secret
